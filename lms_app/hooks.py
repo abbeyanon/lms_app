@@ -23,6 +23,11 @@ app_license = "mit"
 
 # Includes in <head>
 # ------------------
+fixtures = [
+    {"dt": "Custom Field", "filters": [["module", "=", "Lms App"]]},
+    {"dt": "Workspace", "filters": [["module", "=", "Lms App"]]},
+    {"dt": "DocType", "filters": [["module", "=", "Lms App"]]}
+]
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/lms_app/css/lms_app.css"
