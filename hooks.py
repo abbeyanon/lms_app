@@ -2,9 +2,9 @@
 
 app_name = "lms_app"
 app_title = "LMS App"
-app_publisher = "Your Name or Company"
+app_publisher = "Abigael Lemba"
 app_description = "Learning Management System"
-app_email = "you@example.com"
+app_email = "mbitheabigail20@gmail.com"
 app_license = "MIT"
 
 # Fixtures to export specific doctypes and configurations
