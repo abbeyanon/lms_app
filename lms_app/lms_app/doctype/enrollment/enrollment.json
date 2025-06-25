@@ -62,7 +62,7 @@
    "fieldname": "trainer",
    "fieldtype": "Link",
    "label": "Trainer",
-   "options": "Trainer"
+   "options": "Instructor"
   },
   {
    "fieldname": "remarks",
@@ -73,7 +73,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-06-25 18:54:07.233482",
+ "modified": "2025-06-25 22:01:47.052370",
  "modified_by": "Administrator",
  "module": "LMS APP",
  "name": "Enrollment",

@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class Trainer(Document):
+class Instructor(Document):
 	pass

@@ -26,7 +26,7 @@
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Trainer",
-   "options": "Trainer",
+   "options": "Instructor",
    "reqd": 1
   },
   {
@@ -57,7 +57,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-06-25 18:52:58.224105",
+ "modified": "2025-06-25 22:01:46.662751",
  "modified_by": "Administrator",
  "module": "LMS APP",
  "name": "Lesson",

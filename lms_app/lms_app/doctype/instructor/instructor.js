@@ -1,7 +1,7 @@
 // Copyright (c) 2025, Abigael Lemba and contributors
 // For license information, please see license.txt
 
-// frappe.ui.form.on("Trainer", {
+// frappe.ui.form.on("Instructor", {
 // 	refresh(frm) {
 
 // 	},

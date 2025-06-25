@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"2M233ArCLj\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">LMS APP</span>\",\"col\":12}},{\"id\":\"S1dq7bfM9m\",\"type\":\"paragraph\",\"data\":{\"text\":\"Courses\",\"col\":12}},{\"id\":\"Nt53GLCdnQ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Course List\",\"col\":3}},{\"id\":\"rMg-2YWTIM\",\"type\":\"paragraph\",\"data\":{\"text\":\"Students\",\"col\":11}},{\"id\":\"tn5Q3X4viA\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Student List\",\"col\":3}}]",
+ "content": "[{\"id\":\"2M233ArCLj\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">LMS APP</span>\",\"col\":12}},{\"id\":\"S1dq7bfM9m\",\"type\":\"paragraph\",\"data\":{\"text\":\"Courses\",\"col\":12}},{\"id\":\"Nt53GLCdnQ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Course List\",\"col\":3}},{\"id\":\"9a_mclS1dI\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Trainer List\",\"col\":3}},{\"id\":\"ZZ-Jp9PZAx\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Lesson List\",\"col\":3}},{\"id\":\"rMg-2YWTIM\",\"type\":\"paragraph\",\"data\":{\"text\":\"Students\",\"col\":11}},{\"id\":\"tn5Q3X4viA\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Student List\",\"col\":3}},{\"id\":\"pLj2DfCSke\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Enrollement List\",\"col\":3}},{\"id\":\"klvNM9UQE_\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Certificates\",\"col\":3}}]",
  "creation": "2025-06-25 18:08:27.915307",
  "custom_blocks": [],
  "docstatus": 0,
@@ -12,7 +12,7 @@
  "is_hidden": 0,
  "label": "LMS APP",
  "links": [],
- "modified": "2025-06-25 18:15:18.969166",
+ "modified": "2025-06-25 20:05:58.599716",
  "modified_by": "mbitheabigail20@gmail.com",
  "module": "LMS APP",
  "name": "LMS APP",
@@ -27,8 +27,32 @@
   {
    "color": "Grey",
    "doc_view": "List",
+   "label": "Trainer List",
+   "link_to": "Trainer",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
    "label": "Course List",
    "link_to": "Course",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Pink",
+   "doc_view": "List",
+   "label": "Certificates",
+   "link_to": "Certificate",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Lesson List",
+   "link_to": "Lesson",
    "stats_filter": "[]",
    "type": "DocType"
   },
@@ -37,6 +61,14 @@
    "doc_view": "List",
    "label": "Student List",
    "link_to": "Student",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Red",
+   "doc_view": "List",
+   "label": "Enrollement List",
+   "link_to": "Enrollment",
    "stats_filter": "[]",
    "type": "DocType"
   }
