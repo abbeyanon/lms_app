@@ -9,7 +9,8 @@
   "student_name",
   "member_id",
   "enrollment_date",
-  "ministry_interests"
+  "ministry_interests",
+  "certificates"
  ],
  "fields": [
   {
@@ -39,12 +40,19 @@
    "fieldtype": "Table",
    "label": "Ministry Interests",
    "options": "Ministry Interest"
+  },
+  {
+   "columns": 2,
+   "fieldname": "certificates",
+   "fieldtype": "Table",
+   "label": "Certificates",
+   "options": "Student Certificate"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-06-25 16:28:39.669801",
+ "modified": "2025-06-26 19:33:45.477915",
  "modified_by": "Administrator",
  "module": "LMS APP",
  "name": "Student",
